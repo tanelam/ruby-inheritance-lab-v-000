@@ -32,3 +32,4 @@ tania.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 puts "Tania just started at Flatiron, she is learning important knowledge about: '#{tania.knowledge.first}' from Avi."
+puts "#{oskar.first_name} just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
