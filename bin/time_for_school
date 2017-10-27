@@ -20,10 +20,14 @@ tania = Student.new
 tania.first_name =  "Tania"
 tania.last_name = "Aparicio"
 
+oskar = Student.new
+oskar.first_name = "Oskar"
+oskar.last_name = "Garcia"
+
 some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
-
+oskar.learn(some_knowledge)
 tania.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
